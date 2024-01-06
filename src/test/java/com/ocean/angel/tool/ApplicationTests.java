@@ -15,7 +15,7 @@ class ApplicationTests {
 
     @Test
     void generateTableStructure() {
-        // 导出配置的表，生成word表结构文档，文档在/resoures/word目录下
+        // 导出配置的表，生成word表结构文档，文档在/resources/word目录下
         commonService.generateTableStructure();
     }
 
